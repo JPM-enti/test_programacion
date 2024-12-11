@@ -2,7 +2,11 @@
 
 int main() {
 
-	std::cout << "Hello World!";
+	std::string userName;
+
+	std::cout << "Bienvenido User! Introduce tu nombre: ";
+	std::cin >> userName;
+	std::cout << "Hola " << userName << "!";
 
 
 	return 0;
